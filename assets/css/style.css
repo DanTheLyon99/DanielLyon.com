@@ -523,6 +523,10 @@ section {
   text-align: center;
   padding-bottom: 30px;
 }
+.section-title-about {
+  text-align: center;
+  padding-bottom: 0px;
+}
 
 .section-title h2 {
   font-size: 32px;
@@ -546,6 +550,13 @@ section {
 
 .section-title p {
   margin-bottom: 0;
+}
+/*--------------------------------------------------------------
+# About
+--------------------------------------------------------------*/
+.about {
+  padding-top: 29px;
+  padding-bottom: 0px;
 }
 
 /*--------------------------------------------------------------
@@ -728,6 +739,10 @@ box-sizing: border-box;
 /*--------------------------------------------------------------
 # Skills
 --------------------------------------------------------------*/
+.skills{
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
 .skills .progress {
   height: 60px;
   display: block;
