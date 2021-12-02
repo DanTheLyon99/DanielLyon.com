@@ -85,7 +85,7 @@
   }, true)
 
   /**
-   * Scrool with ofset on links with a class name .scrollto
+   * Scroll with ofset on links with a class name .scrollto
    */
   on('click', '.scrollto', function(e) {
     if (select(this.hash)) {
@@ -193,7 +193,7 @@
   if (skilsContent) {
     new Waypoint({
       element: skilsContent,
-      offset: '100%',
+      offset: '80%',
       handler: function(direction) {
         let progress = select('.progress .progress-bar', true);
         progress.forEach((el) => {
